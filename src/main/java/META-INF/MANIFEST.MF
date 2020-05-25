@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Main-Class: MockService
+Class-Path: mockserver-netty-5.4.1.jar libphonenumber-8.0.0.jar slf4j-ap
+ i-1.7.25.jar netty-common-4.1.21.Final.jar jsonassert-1.5.0.jar hamcres
+ t-core-1.3.jar commons-logging-1.2.jar velocity-engine-core-2.0.jar jzl
+ ib-1.1.3.jar jaxb-api-2.3.0.jar android-json-0.0.20131108.vaadin1.jar a
+ ctivation-1.1.jar commons-codec-1.10.jar netty-codec-socks-4.1.21.Final
+ .jar junit-4.12.jar logback-classic-1.1.3.jar commons-io-2.6.jar common
+ s-lang3-3.7.jar mockserver-core-5.4.1.jar jackson-core-2.9.6.jar common
+ s-collections4-4.1.jar netty-handler-proxy-4.1.21.Final.jar jopt-simple
+ -5.0.3.jar httpcore-4.4.9.jar msg-simple-1.1.jar guava-18.0.jar btf-1.2
+ .jar jackson-annotations-2.9.6.jar netty-transport-4.1.21.Final.jar net
+ ty-codec-http-4.1.21.Final.jar joda-time-2.9.7.jar mockserver-client-ja
+ va-5.4.1.jar netty-resolver-4.1.21.Final.jar bcprov-jdk15on-1.58.jar ht
+ tpclient-4.5.5.jar bcpkix-jdk15on-1.58.jar jsr305-3.0.1.jar netty-codec
+ -4.1.21.Final.jar jackson-coreutils-1.8.jar rhino-1.7R4.jar json-schema
+ -validator-2.2.8.jar jackson-databind-2.9.6.jar logback-core-1.1.3.jar 
+ javax.servlet-api-3.1.0.jar netty-buffer-4.1.21.Final.jar commons-text-
+ 1.1.jar json-schema-core-1.2.8.jar netty-handler-4.1.21.Final.jar veloc
+ ity-engine-scripting-2.0.jar uri-template-0.9.jar mailapi-1.4.3.jar
+
