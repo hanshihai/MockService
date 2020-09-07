@@ -15,8 +15,8 @@ public class MockService {
             System.out.println("*********************************************");
             System.exit(0);
         }
-
-        ClientAndServer server = new ClientAndServer(1080);
+        Integer port = new Integer(args[0]);
+        ClientAndServer server = new ClientAndServer(port);
 
         server.when(
                 request().withMethod("POST").withPath("/post")
