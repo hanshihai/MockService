@@ -15,6 +15,7 @@ public class MockService {
             System.out.println("*********************************************");
             System.exit(0);
         }
+        System.out.println("-- staring server on port : " + args[0]);
         Integer port = new Integer(args[0]);
         ClientAndServer server = new ClientAndServer(port);
 
