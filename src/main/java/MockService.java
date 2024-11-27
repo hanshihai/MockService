@@ -16,13 +16,13 @@ public class MockService {
             System.exit(0);
         }
         System.out.println("-- staring server on port : " + args[0]);
-        Integer port = new Integer(args[0]);
+        Integer port = Integer.valueOf(args[0]);
         ClientAndServer server = new ClientAndServer(port);
 
         server.when(
                 request().withMethod("POST").withPath("/post")
         ).respond(
-                response().withStatusCode(201).withBody(request().getBodyAsString())
+                response().withStatusCode(204).withBody(request().getBodyAsString())
         );
 
         server.when(
@@ -41,6 +41,12 @@ public class MockService {
                 request().withMethod("GET").withPath("/get")
         ).respond(
                 response().withStatusCode(200).withBody("{\"name\":\"value\"}")
+        );
+        
+        server.when(
+                request().withMethod("DELETE").withPath("/delete")
+        ).respond(
+                response().withStatusCode(200).withBody("")
         );
     }
 }
